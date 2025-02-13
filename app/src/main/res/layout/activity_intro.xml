@@ -9,10 +9,65 @@
         android:id="@+id/imageView"
         android:layout_width="458dp"
         android:layout_height="732dp"
-        android:tint="#80000000"
+        android:tint="#66000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cover_page" />
+        app:srcCompat="@drawable/cover_page"
+        tools:ignore="UseAppTint" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="240dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/aleo_semibold"
+        android:text="Meet Our Expert Instructors"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="282dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="25dp"
+        android:text="Learn with fitness experts, at your own pace, and 100% updated content."
+        android:textAlignment="center"
+        android:textColor="#616060"
+        android:textColorLink="#FFF1F1"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/introButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/introButton"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="153dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/intro_button"
+        android:text="Get Strated"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/Logintext"
+        android:textColor="#FAF8F8"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
