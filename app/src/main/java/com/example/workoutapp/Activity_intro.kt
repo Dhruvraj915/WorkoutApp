@@ -11,16 +11,16 @@ class Activity_intro : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_intro)
 
-        val button: Button = findViewById(R.id.introButton)
-        val textView3: TextView = findViewById(R.id.textView3)
-
+//        val button: Button = findViewById(R.id.introButton)
+//        val textView3: TextView = findViewById(R.id.textView3)
+//
 //        button.setOnClickListener {
 //            val intent = Intent(this, NextActivity::class.java)
 //            startActivity(intent)
 //        }
-
+//
 //        textView3.setOnClickListener {
 //            val intent = Intent(this, LoginActivity::class.java)
 //            startActivity(intent)
