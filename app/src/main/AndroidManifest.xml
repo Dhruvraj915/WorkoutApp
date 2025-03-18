@@ -18,6 +18,7 @@
 
         <activity android:name=".Activity_intro" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".Activity_First"/>
 
     </application>
 </manifest>
