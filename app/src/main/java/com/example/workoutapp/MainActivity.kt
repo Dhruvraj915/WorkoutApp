@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.HorizontalScrollView
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -49,11 +50,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-//        val menuicon: ImageView = findViewById(R.id.menuicon)
-//        menuicon.setOnClickListener {
-//            val intent = Intent(this, Activity_Library::class.java)
-//            startActivity(intent)
-//        }
+        val textView6: TextView = findViewById(R.id.textView6)
+        textView6.setOnClickListener {
+            val intent = Intent(this, Activity_Library::class.java)
+            startActivity(intent)
+        }
+
+        val menuicon: ImageView = findViewById(R.id.menuicon)
+        menuicon.setOnClickListener {
+            val intent = Intent(this, Activity_Library::class.java)
+            startActivity(intent)
+        }
 
         val searchicon: ImageView = findViewById(R.id.searchicon)
         searchicon.setOnClickListener {
