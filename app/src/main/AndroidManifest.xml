@@ -22,6 +22,10 @@
         <activity android:name=".Activity_Second"/>
         <activity android:name=".Activity_Third"/>
         <activity android:name=".Activity_Fourth"/>
+        <activity android:name=".Activity_Library"/>
+        <activity android:name=".Activity_Search"/>
+
+
 
     </application>
 </manifest>

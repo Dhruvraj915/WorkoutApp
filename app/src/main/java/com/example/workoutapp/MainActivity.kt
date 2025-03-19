@@ -48,5 +48,17 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Activity_Third::class.java)
             startActivity(intent)
         }
+
+//        val menuicon: ImageView = findViewById(R.id.menuicon)
+//        menuicon.setOnClickListener {
+//            val intent = Intent(this, Activity_Library::class.java)
+//            startActivity(intent)
+//        }
+
+        val searchicon: ImageView = findViewById(R.id.searchicon)
+        searchicon.setOnClickListener {
+            val intent = Intent(this, Activity_Search::class.java)
+            startActivity(intent)
+        }
     }
 }
