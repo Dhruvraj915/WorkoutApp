@@ -19,6 +19,9 @@
         <activity android:name=".Activity_intro" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Activity_First"/>
+        <activity android:name=".Activity_Second"/>
+        <activity android:name=".Activity_Third"/>
+        <activity android:name=".Activity_Fourth"/>
 
     </application>
 </manifest>

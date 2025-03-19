@@ -25,11 +25,28 @@ class MainActivity : AppCompatActivity() {
             return@setOnApplyWindowInsetsListener insets
         }
 
-        val imageView: ImageView = findViewById(R.id.imageView5)
-        imageView.setOnClickListener {
+        val button: Button = findViewById(R.id.button)
+        button.setOnClickListener{
+            val intent = Intent(this, Activity_Fourth::class.java)
+            startActivity(intent)
+        }
+
+        val imageView5: ImageView = findViewById(R.id.imageView5)
+        imageView5.setOnClickListener {
             val intent = Intent(this, Activity_First::class.java)
             startActivity(intent)
-            finish()
+        }
+
+        val imageView6: ImageView = findViewById(R.id.imageView6)
+        imageView6.setOnClickListener {
+            val intent = Intent(this, Activity_Second::class.java)
+            startActivity(intent)
+        }
+
+        val imageView7: ImageView = findViewById(R.id.imageView7)
+        imageView7.setOnClickListener {
+            val intent = Intent(this, Activity_Third::class.java)
+            startActivity(intent)
         }
     }
 }
