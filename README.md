@@ -28,11 +28,4 @@ The **Workout App** is designed to provide users with direct access to workout v
 1. Open the app and explore the workout categories.  
 2. Select a workout video and start exercising.  
 3. Track your progress and stay consistent.  
-
-### Contributing
-Contributions are welcome! If you want to improve the app, follow these steps:
-1. Fork the repo.  
-2. Create a new branch: `git checkout -b feature-name`.  
-3. Commit changes: `git commit -m "Added new feature"`.  
-4. Push to the branch: `git push origin feature-name`.  
-5. Submit a Pull Request.  
+ 
